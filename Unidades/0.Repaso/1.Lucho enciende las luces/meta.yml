@@ -3,6 +3,7 @@ attire:
   user_permissions:
     can_toggle_visibility: true
   visible: true
+  
 blocks:
   defaultToolbox: |
     <category name="Comandos comunes">
@@ -31,7 +32,7 @@ board:
   user_permissions:
     can_change_source: true
     can_edit_board: true
-  visible_edition: false
+  visible_edition: true
 execution_speed:
   active: high
   user_permissions:
