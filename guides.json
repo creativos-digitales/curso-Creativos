@@ -1,5 +1,5 @@
 [
-  { "name": "0.Repaso"                     , "repo": "gobstones/curso-LPYSD2"
+  { "name": "0.Repaso"                     , "repo": "ezeforte/curso-lpysd2-master"
   , "exercises": 
     [ { "id": "1", "name": "Lucho enciende las luces"
       , "path": "Unidades/0.Repaso/1.Lucho enciende las luces"
