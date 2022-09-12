@@ -30,7 +30,7 @@ board:
   active: 1
   initial_board_source: selected
   user_permissions:
-    can_change_source: true
+    can_change_source: false
     can_edit_board: false
   visible_edition: false
 execution_speed:
