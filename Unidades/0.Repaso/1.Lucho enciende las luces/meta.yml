@@ -29,9 +29,9 @@ board:
   active: 1
   initial_board_source: selected
   user_permissions:
-    can_change_source: false
+    can_change_source: true
     can_edit_board: true
-  visible_edition: false
+  visible_edition: true
 execution_speed:
   active: high
   user_permissions:
@@ -41,4 +41,4 @@ library:
 source:
   visible: true
   percentage: 0.70  
-name: Titulo en pantalla "El Leñador"
+name: pantalla  "El Leñador"
