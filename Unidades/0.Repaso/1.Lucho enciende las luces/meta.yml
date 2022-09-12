@@ -32,7 +32,7 @@ execution_speed:
   user_permissions:
     can_change_speed: true
 library:
-  visible: false
+  visible: true
 source:
   visible: true
   percentage: 0.70  
