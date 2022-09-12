@@ -31,8 +31,8 @@ board:
   initial_board_source: selected
   user_permissions:
     can_change_source: true
-    can_edit_board: true
-  visible_edition: true
+    can_edit_board: false
+  visible_edition: false
 execution_speed:
   active: high
   user_permissions:
