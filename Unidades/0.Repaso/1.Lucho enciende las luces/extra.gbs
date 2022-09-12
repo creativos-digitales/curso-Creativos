@@ -1,8 +1,12 @@
 /*----------------------------------------------------------------------------------------*/
 /*---------------- INTERFAZ --------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------*/
-/*@ATTRIBUTE@block_name@Encender luz@*/
-procedure EncenderLuz() { AuxEncenderLuz() }
+/*@ATTRIBUTE@block_name@MoverCarlosEste@*/
+procedure MoverCarlosEste(){
+    Sacar(Rojo)
+    Mover(Este)
+    Poner(Rojo)
+}
 
 /*@ATTRIBUTE@block_name@Mover a Lucho al _@*/
 procedure MoverALuchoAl_(dir) { AuxMoverALuchoAl(dir) }

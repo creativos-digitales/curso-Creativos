@@ -14,7 +14,7 @@ blocks:
     </category>
     <category name="Operaciones de Luces">
         <block type="MoverALuchoAl_"></block>
-        <block type="EncenderLuz"></block>
+        <block type="MoverCarlosEste"></block>
     </category>
     <category name="Mis procedimientos" custom="PROCEDURE_CALLS">  </category>
     <category name="Definiciones">
