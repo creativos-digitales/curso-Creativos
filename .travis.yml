@@ -1,0 +1,13 @@
+language: python
+python:
+- '2.7'
+branches:
+  except:
+  - archivosDeProyecto
+script:
+- python makeAllGBPs.py
+after_success:
+- python makeAllGBPs.py publishGBPs
+env:
+  global:
+  - secure: R8JYLuPxE5d7+wEu0DzQte9FFi4c7Q5kIt0sZ/qDBdqXMHc1eoqScAx1QYpP7Yku0pxmRTFnmz45G+8mw5/cVOYNlziYzqljgMB15I7BfLKtM1FHSUjz3lq0I2WuLsRTaXYABIqb8kyDkLyDS+1/5sW8moGcsLorcx3EXQT9qReE013+Y7qOQ166V6ASs7M8tJScLOUpGj/vfS0eSajuO1TkSFfZuxoMuAJLo1I2SM5JyqaI3KaQj97Intcm8IHVDXzCKCrP0uz6LI+r7K4CUKG5vJuhpCA7tywULSpVZNh+TbOKNuIlJluxr/CLkLwBmd7p3FC1e5fNUbudapVgb+6PaOWIsFsJ9prfyVALrWospPVcs5KDIar5Bb3WWsqjZ5yGJTvgurhcMUXq2aiXE/3GuP/uD9tQYCw14xbghbRTVkPPOT19Pi4X32f86puaeGWrf9nEXOf6Uwo5sZSHjmS5xbp6QFinQ5Pmx8ifzVlw4dRytza2FoJTKGnc56NBOxmE0XrCu+cTuvTF4r+eT8QSN6npUbrD1kYAgSPvoG7R7Y0UiRu+81WNxFsAaWFMJ1HHKFlWNcwGv6slIXCDrmpt4ZhLF4G478QPFtHuW/E7BO7Daqx1INmNYnOBvTrH/XAWLZE5yQkauqix1uP8RHLsjeAlIHOW6ZaIUbd3F18=

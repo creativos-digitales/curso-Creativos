@@ -1,0 +1,39 @@
+attire:
+  active: Lucho enciende las luces
+  user_permissions:
+    can_toggle_visibility: false
+  visible: true
+blocks:
+  defaultToolbox: |
+    <category name="Comandos comunes">
+        <block type="RepeticionSimple"></block>
+    </category>
+    <category name="Expresiones comunes">
+        <block type="math_number"></block>
+        <block type="DireccionSelector"></block>
+    </category>
+    <category name="Operaciones de Luces">
+        <block type="MoverALuchoAl_"></block>
+        <block type="EncenderLuz"></block>
+    </category>
+    <category name="Mis procedimientos" custom="PROCEDURE_CALLS">  </category>
+    <category name="Definiciones">
+        <block type="procedures_defnoreturnnoparams"></block>
+    </category>
+board:
+  active: 1
+  initial_board_source: selected
+  user_permissions:
+    can_change_source: false
+    can_edit_board: false
+  visible_edition: false
+execution_speed:
+  active: high
+  user_permissions:
+    can_change_speed: true
+library:
+  visible: false
+source:
+  visible: true
+  percentage: 0.70  
+name: Lucho enciende las luces

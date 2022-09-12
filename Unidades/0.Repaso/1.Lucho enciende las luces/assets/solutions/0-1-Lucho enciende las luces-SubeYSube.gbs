@@ -1,0 +1,30 @@
+﻿program {
+  EncenderTodasLasLuces()
+}
+
+procedure EncenderTodasLasLuces() {
+  IrALaBaseDeLaPrimeraDiagonal()
+  EncenderLucesDeUnaDiagonalHaciaArriba()
+  IrALaBaseDeLaSegundaDiagonal()
+  EncenderLucesDeUnaDiagonalHaciaArriba()
+}
+
+procedure IrALaBaseDeLaPrimeraDiagonal() {
+  MoverALuchoAl_(Norte)
+}
+
+procedure IrALaBaseDeLaSegundaDiagonal() {
+  repeat(4) {
+    MoverALuchoAl_(Sur)
+  }
+  MoverALuchoAl_(Oeste)
+}
+
+procedure EncenderLucesDeUnaDiagonalHaciaArriba() {
+  repeat(3) {
+    EncenderLuz()
+    MoverALuchoAl_(Este)
+    MoverALuchoAl_(Norte)
+  }
+  EncenderLuz()
+}

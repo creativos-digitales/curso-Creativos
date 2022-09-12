@@ -1,0 +1,19 @@
+﻿program {
+  MoverALuchoAl_(Norte)
+  repeat(3) {
+    EncenderLuz()
+    MoverALuchoAl_(Este)
+    MoverALuchoAl_(Norte)
+  }
+  EncenderLuz()
+  repeat(2) {
+    MoverALuchoAl_(Este)
+  }
+  MoverALuchoAl_(Sur)
+  repeat(3) {
+    EncenderLuz()
+    MoverALuchoAl_(Oeste)
+    MoverALuchoAl_(Sur)
+  }
+  EncenderLuz()
+}

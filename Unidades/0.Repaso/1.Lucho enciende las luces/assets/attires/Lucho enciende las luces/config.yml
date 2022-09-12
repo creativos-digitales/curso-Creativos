@@ -1,0 +1,44 @@
+name: carlos
+rules:
+  - when:
+      red: 1
+      green: 0
+      blue: 0
+      black: 0
+    image: leñador-removebg-preview.png
+    text: null
+  - when:
+      red: 0
+      green: 1
+      blue: 0
+      black: 0
+    image: arbol (1).png
+    text: null
+  - when:
+      red: 0
+      green: 2
+      blue: 0
+      black: 0
+    image: arbol2.png
+    text: null
+  - when:
+      red: 1
+      green: 1
+      blue: 0
+      black: 0
+    image: arbol y leñador.png
+    text: null
+  - when:
+      red: 1
+      green: 2
+      blue: 0
+      black: 0
+    image: arboles y leñador.png
+    text: null
+  - when:
+      red: '*'
+      green: '*'
+      blue: '*'
+      black: '*'
+    image: fondo verde.png
+    text: null
