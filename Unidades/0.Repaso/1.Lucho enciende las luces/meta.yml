@@ -1,5 +1,5 @@
 attire:
-  active: Lucho enciende las luces
+  active: Leñador M2
   user_permissions:
     can_toggle_visibility: false
   visible: true
@@ -12,9 +12,14 @@ blocks:
         <block type="math_number"></block>
         <block type="DireccionSelector"></block>
     </category>
-    <category name="Operaciones de Luces">
-        <block type="MoverALuchoAl_"></block>
+    <category name="Procedimientos">
         <block type="MoverCarlosEste"></block>
+        <block type="MoverCarlosOeste"></block>
+        <block type="MoverCarlosNorte"></block>
+        <block type="MoverCarlosSur"></block>
+        <block type="PlantarArboles"></block>
+        <block type="TalarArbol"></block>
+
     </category>
     <category name="Mis procedimientos" custom="PROCEDURE_CALLS">  </category>
     <category name="Definiciones">
@@ -36,4 +41,4 @@ library:
 source:
   visible: true
   percentage: 0.70  
-name: Lucho enciende las luces
+name: Leñador M38

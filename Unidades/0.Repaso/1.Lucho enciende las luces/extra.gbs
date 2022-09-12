@@ -8,6 +8,35 @@ procedure MoverCarlosEste(){
     Poner(Rojo)
 }
 
+/*@ATTRIBUTE@block_name@MoverCarlosOeste@*/
+procedure MoverCarlosOeste(){
+    Sacar(Rojo)
+    Mover(Oeste)
+    Poner(Rojo)
+    
+}
+/*@ATTRIBUTE@block_name@MoverCarlosNorte@*/
+procedure MoverCarlosNorte(){
+    Sacar(Rojo)
+    Mover(Norte)
+    Poner(Rojo)
+}
+/*@ATTRIBUTE@block_name@MoverCarlosSur@*/
+procedure MoverCarlosSur(){
+    Sacar(Rojo)
+    Mover(Sur)
+    Poner(Rojo)
+}
+/*@ATTRIBUTE@block_name@PlantarArboles@*/
+procedure PlantarArboles(){
+    Poner(Verde)
+    Poner(Verde)
+}
+/*@ATTRIBUTE@block_name@TalarArbol@*/
+procedure TalarArbol(){
+    Sacar(Verde)
+}
+
 /*@ATTRIBUTE@block_name@Mover a Lucho al _@*/
 procedure MoverALuchoAl_(dir) { AuxMoverALuchoAl(dir) }
 
