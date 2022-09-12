@@ -30,7 +30,7 @@ board:
   initial_board_source: selected
   user_permissions:
     can_change_source: false
-    can_edit_board: false
+    can_edit_board: true
   visible_edition: false
 execution_speed:
   active: high
@@ -41,4 +41,4 @@ library:
 source:
   visible: true
   percentage: 0.70  
-name: Leñador M38
+name: Titulo en pantalla "El Leñador"
