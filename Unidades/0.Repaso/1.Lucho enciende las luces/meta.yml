@@ -1,7 +1,7 @@
 attire:
   active: Leñador M2
   user_permissions:
-    can_toggle_visibility: false
+    can_toggle_visibility: true
   visible: true
 blocks:
   defaultToolbox: |
