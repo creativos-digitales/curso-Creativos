@@ -31,7 +31,7 @@ board:
   user_permissions:
     can_change_source: true
     can_edit_board: true
-  visible_edition: true
+  visible_edition: false
 execution_speed:
   active: high
   user_permissions:
