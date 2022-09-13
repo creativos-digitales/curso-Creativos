@@ -13,19 +13,19 @@
       }
       ,
       { "id": "4", "name": "titulo en ejercicios: El raton hambriento 1"
-      , "path": "Unidades/4.El raton hambriento"
+      , "path": "Unidades/4. El raton hambriento"
       }
       ,
       { "id": "5", "name": "titulo en ejercicios: El raton hambriento 2"
-      , "path": "Unidades/5.El raton hambriento"
+      , "path": "Unidades/5. El raton hambriento"
       }
       ,
       { "id": "6", "name": "titulo en ejercicios: El raton hambriento 3"
-      , "path": "Unidades/6.El raton hambriento"
+      , "path": "Unidades/6. El raton hambriento"
       }
       ,
-      { "id": "7", "name": "titulo en ejercicios: Reciclando ando"
-      , "path": "Unidades/7.Reciclando ando"
+      { "id": "7", "name": "titulo en ejercicios: Buscando la salida"
+      , "path": "Unidades/7.Buscando la salida"
       }
     
     ]
