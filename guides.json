@@ -3,6 +3,9 @@
   , "exercises": 
     [ { "id": "1", "name": "titulo en ejercicios: El Leñador H" 
       , "path": "Unidades/0.Repaso/1.Lucho enciende las luces"
+      },
+      { "id": "2", "name": "titulo en ejercicios: Buscando la salida"
+      , "path": "Unidades/0.Repaso/Buscando la salida"
       }
     
     ]

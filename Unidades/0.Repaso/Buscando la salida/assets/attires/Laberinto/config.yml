@@ -1,0 +1,37 @@
+name: Laberinto
+rules:
+  - when:
+      red: 1
+      green: '*'
+      blue: '*'
+      black: '*'
+    image: hormiga-removebg-preview (1).png
+    text: null
+  - when:
+      red: '*'
+      green: 1
+      blue: '*'
+      black: '*'
+    image: salida-removebg-preview (1).png
+    text: null
+  - when:
+      red: '*'
+      green: '*'
+      blue: '*'
+      black: 1
+    image: roca-removebg-preview (1) (1).png
+    text: null
+  - when:
+      red: '*'
+      green: '*'
+      blue: 1
+      black: '*'
+    image: semilla-removebg-preview (1).png
+    text: null
+  - when:
+      red: '*'
+      green: '*'
+      blue: '*'
+      black: '*'
+    image: tierra (1).png
+    text: null

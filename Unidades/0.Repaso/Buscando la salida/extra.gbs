@@ -1,0 +1,60 @@
+// Operaciones para representar a Hormiga
+
+// PRECONDICIÓN: no está el Hormiga
+procedure AuxPonerHormiga()           
+  { 
+      Poner(Rojo) 
+  }
+
+  
+//Funciones para saber si existen los objetos
+
+function aux_hayHormiga() {
+    return(nroBolitas(Rojo) == 1)
+}
+
+function aux_haySalida() {
+    return(nroBolitas(Verde) == 1)
+}
+
+function aux_hayRoca()  {
+    return(nroBolitas(Negro) ==1)
+}
+
+function aux_haySemilla()  {
+    return(nroBolitas(Azul) ==1)
+}
+//Procedimientos auxiliares
+
+procedure AuxVerificarSiHayHormiga() {
+    if (not aux_hayHormiga()) 
+      { BOOM("No está la Hormiga acá para darle instrucciones") }
+}
+
+procedure AuxVerificarSiHaySalida() {
+    if (not aux_haySalida()) 
+      { BOOM("No está la Hormiga lo suficientemente cerca de la salida.") }
+}
+
+procedure AuxVerificarSiHayRoca() {
+    if (aux_hayRoca()) 
+      { BOOM("La roca no te dejo avanzar, trata de evitarla!") }
+}
+
+//Procedimiento primitivo para alumno
+
+//PRECONDICION: existe una Hormiga, una Salida y no hay una Roca
+
+procedure SalirLaberinto ()
+{
+    AuxVerificarSiHayHormiga()
+    AuxVerificarSiHaySalida()
+    AuxVerificarSiHayRoca()
+    Sacar(Rojo)
+}
+
+procedure VerificarSiHaySemilla() {
+    if (not aux_haySemilla()) 
+      { BOOM("No hay una semilla que puedas guardar!") }
+}
+

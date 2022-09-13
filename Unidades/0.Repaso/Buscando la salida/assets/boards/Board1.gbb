@@ -1,0 +1,36 @@
+GBB/1.0
+size 8 7
+cell 0 0 Rojo 1
+cell 2 0 Azul 1
+cell 3 0 Negro 1
+cell 5 0 Azul 1
+cell 7 0 Negro 1
+cell 0 1 Negro 1
+cell 1 1 Negro 1
+cell 3 1 Negro 1
+cell 5 1 Negro 1
+cell 7 1 Azul 1
+cell 0 2 Negro 1
+cell 3 2 Negro 1
+cell 4 2 Azul 1
+cell 5 2 Negro 1
+cell 6 2 Negro 1
+cell 0 3 Azul 1
+cell 2 3 Negro 1
+cell 3 3 Azul 1
+cell 5 3 Negro 1
+cell 6 3 Verde 1
+cell 0 4 Negro 1
+cell 2 4 Azul 1
+cell 3 4 Negro 1
+cell 6 4 Negro 1
+cell 7 4 Negro 1
+cell 0 5 Azul 1
+cell 2 5 Negro 1
+cell 3 5 Negro 1
+cell 4 5 Negro 1
+cell 7 5 Azul 1
+cell 0 6 Negro 1
+cell 6 6 Negro 1
+cell 7 6 Negro 1
+head 0 0
