@@ -1,0 +1,30 @@
+name: Ciudad mas limpia
+rules:
+  - when:
+      red: 0
+      green: 0
+      blue: 1
+      black: 0
+    image: botella-min.png
+    text: null
+  - when:
+      red: 1
+      green: 0
+      blue: 1
+      black: 0
+    image: ninio botella.png
+    text: null
+  - when:
+      red: 1
+      green: 0
+      blue: 0
+      black: 0
+    image: ninio con fondo-min.png
+    text: null
+  - when:
+      red: 0
+      green: 0
+      blue: 0
+      black: 0
+    image: fondo.png
+    text: null

@@ -1,0 +1,37 @@
+name: Raton
+rules:
+  - when:
+      red: 1
+      green: 2
+      blue: 0
+      black: '*'
+    image: raton_con_queso__1_-removebg-preview (1).png
+    text: null
+  - when:
+      red: '*'
+      green: 2
+      blue: '*'
+      black: '*'
+    image: raton_parado__1___1_-removebg-preview (1).png
+    text: null
+  - when:
+      red: '*'
+      green: '*'
+      blue: '*'
+      black: 1
+    image: gato-removebg-preview (1).png
+    text: null
+  - when:
+      red: '*'
+      green: '*'
+      blue: 3
+      black: '*'
+    image: queso-removebg-preview__2_-removebg-preview (1).png
+    text: null
+  - when:
+      red: '*'
+      green: '*'
+      blue: '*'
+      black: '*'
+    image: verde (1) (1).png
+    text: null

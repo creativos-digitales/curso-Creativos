@@ -1,0 +1,72 @@
+name: Ciudad mas limpia
+rules:
+  - when:
+      red: 0
+      green: 0
+      blue: 0
+      black: 1
+    image: bolsa de basura con fondo-min.png
+    text: null
+  - when:
+      red: 1
+      green: 0
+      blue: 0
+      black: 1
+    image: ninio bolsa.png
+    text: null
+  - when:
+      red: 0
+      green: 0
+      blue: 1
+      black: 0
+    image: lata-min.png
+    text: null
+  - when:
+      red: 1
+      green: 0
+      blue: 1
+      black: 0
+    image: ninio lata.png
+    text: null
+  - when:
+      red: 0
+      green: 0
+      blue: 2
+      black: 0
+    image: botella-min.png
+    text: null
+  - when:
+      red: 1
+      green: 0
+      blue: 2
+      black: 0
+    image: ninio botella.png
+    text: null
+  - when:
+      red: 0
+      green: 0
+      blue: 4
+      black: 0
+    image: basura-min.png
+    text: null
+  - when:
+      red: 1
+      green: 0
+      blue: 0
+      black: 0
+    image: ninio con fondo-min.png
+    text: null
+  - when:
+      red: 0
+      green: 0
+      blue: 0
+      black: 0
+    image: fondo.png
+    text: null
+  - when:
+      red: 1
+      green: 0
+      blue: 4
+      black: 0
+    image: ninio basura.png
+    text: null

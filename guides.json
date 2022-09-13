@@ -1,11 +1,31 @@
 [
   { "name": "Ejercicios"                     , "repo": "ezeforte/curso-Creativos"
   , "exercises": 
-    [ { "id": "1", "name": "titulo en ejercicios: El Leñador H" 
-      , "path": "Unidades/0.Repaso/1.Lucho enciende las luces"
+    [ { "id": "1", "name": "titulo en ejercicios: Mas y mas leña" 
+      , "path": "Unidades/1.Mas y mas leña"
       },
-      { "id": "2", "name": "titulo en ejercicios: Buscando la salida"
-      , "path": "Unidades/0.Repaso/Buscando la salida"
+      { "id": "2", "name": "titulo en ejercicios: Reciclando ando"
+      , "path": "Unidades/2.Reciclando ando"
+      }
+      ,
+      { "id": "3", "name": "titulo en ejercicios: Ciudad mas limpia"
+      , "path": "Unidades/3.Ciudad mas limpia"
+      }
+      ,
+      { "id": "4", "name": "titulo en ejercicios: El raton hambriento 1"
+      , "path": "Unidades/4.El raton hambriento"
+      }
+      ,
+      { "id": "5", "name": "titulo en ejercicios: El raton hambriento 2"
+      , "path": "Unidades/5.El raton hambriento"
+      }
+      ,
+      { "id": "6", "name": "titulo en ejercicios: El raton hambriento 3"
+      , "path": "Unidades/6.El raton hambriento"
+      }
+      ,
+      { "id": "7", "name": "titulo en ejercicios: Reciclando ando"
+      , "path": "Unidades/7.Reciclando ando"
       }
     
     ]

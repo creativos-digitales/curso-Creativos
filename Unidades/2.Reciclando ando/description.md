@@ -1,0 +1,2 @@
+# Reciclando ando
+Tomás se preocupa mucho por el medio ambiente, por eso, cada vez que sale de su casa lleva una bolsa para juntar botellas plasticas, para poder reciclarlas y así poder ayudar contra la contaminación. Ayudemos a Tomás a reciclar todas las botellas que se encuentre en su camino, para ello utilizaremos condicionales, para saber cuando hay o no una botella.

@@ -1,0 +1,20 @@
+
+
+procedure JuntarLata(){
+    Sacar(Azul)
+}
+
+procedure JuntarBotella(){
+    repeat(2){
+        Sacar(Azul)
+    }
+}
+
+procedure JuntarBasura(){
+    repeat(4){
+        Sacar(Azul)
+    }
+}
+procedure DejarBolsaLlena(){
+    Poner(Negro)
+}

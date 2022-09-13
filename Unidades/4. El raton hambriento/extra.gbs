@@ -1,0 +1,70 @@
+// Operaciones para representar a Raton
+
+// PRECONDICIÓN: no está el Raton
+procedure AuxPonerRaton()           
+  { 
+      Poner(Verde) 
+      Poner(Verde) 
+  }
+
+  
+//Funciones para saber si existen los objetos
+
+function aux_hayRaton() {
+    return(nroBolitas(Verde) == 2)
+}
+
+function aux_hayQueso() {
+    return(nroBolitas(Azul) == 3)
+}
+
+function aux_hayGato()  {
+    return(nroBolitas(Negro) ==1)
+}
+
+//Procedimientos auxiliares
+
+procedure AuxVerificarSiHayRaton() {
+    if (not aux_hayRaton()) 
+      { BOOM("No está el Ratón acá para darle instrucciones") }
+}
+
+procedure AuxVerificarSiHayQueso() {
+    if (not aux_hayQueso()) 
+      { BOOM("No está el Ratón lo suficientemente cerca del queso.") }
+}
+
+procedure AuxVerificarSiHayGato() {
+    if (aux_hayGato()) 
+      { BOOM("El gato no te dejo avanzar, trata de evitarlo!") }
+}
+
+//Procedimiento primitivo para alumno
+
+//PRECONDICION: existe un Raton, un Queso y no hay un Gato
+
+procedure TomarQueso ()
+{
+    AuxVerificarSiHayRaton()
+    AuxVerificarSiHayQueso()
+    AuxVerificarSiHayGato()
+    Poner(Rojo)
+    Sacar(Azul)
+    Sacar(Azul)
+    Sacar(Azul)
+}
+
+procedure SacarRaton ()
+{
+    Sacar(Verde)
+    Sacar(Verde)
+}
+
+procedure PonerRaton ()
+{
+    AuxVerificarSiHayGato()
+    Poner(Verde)
+    Poner(Verde)
+}
+
+

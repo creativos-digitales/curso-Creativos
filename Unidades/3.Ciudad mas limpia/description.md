@@ -1,0 +1,2 @@
+# Ciudad más limpia
+A Tomás le encanta ver la ciudad más limpia. Por eso, todos los días al salir de la escuela, recolecta la basura que encuentra en su camino. Ayudemos a Tomás a dejar la cuidad un poco más limpia, para eso utilizaremos condicionales, para que , si él encuentra basura la junte y la ponga en una bolsa. Aunque, si hay muy poca, no dejará una bolsa, seguirá juntando hasta llenar la bolsa. 
