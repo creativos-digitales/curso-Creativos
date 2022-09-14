@@ -1,5 +1,5 @@
 [
-  { "name": "Ejercicios"                     , "repo": "ezeforte/curso-Creativos"
+  { "name": "Ejercicios"                     , "repo": "creativos-digitales/curso-Creativos"
   , "exercises": 
     [ { "id": "1", "name": "titulo en ejercicios: Mas y mas leña" 
       , "path": "Unidades/1.Mas y mas leña"
