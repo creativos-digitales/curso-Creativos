@@ -1,0 +1,8 @@
+procedure MoverSapoEste(){
+    Sacar(Verde)
+    Mover(Este)
+    Poner(Verde)
+}
+procedure ComerMoscas(){
+    Sacar(Azul)
+}
