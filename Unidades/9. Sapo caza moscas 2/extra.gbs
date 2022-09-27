@@ -1,0 +1,28 @@
+procedure MoverSapoEste(){
+    Sacar(Verde)
+    Mover(Este)
+    Poner(Verde)
+}
+procedure MoverSapoOeste(){
+    Sacar(Verde)
+    Mover(Oeste)
+    Poner(Verde)
+}
+procedure MoverSapoNorte(){
+    Sacar(Verde)
+    Mover(Norte)
+    Poner(Verde)
+}
+procedure MoverSapoSur(){
+    Sacar(Verde)
+    Mover(Sur)
+    Poner(Verde)
+}
+procedure ComerMoscas(){
+    Sacar(Azul)
+}
+procedure IrAlBordeSapo(){
+    Sacar(Verde)
+    IrAlBorde(Oeste)
+    Poner(Verde)
+}

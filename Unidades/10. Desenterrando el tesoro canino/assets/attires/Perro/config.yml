@@ -1,0 +1,44 @@
+name: Perro
+rules:
+  - when:
+      red: 1
+      green: 0
+      blue: 0
+      black: 0
+    image: perro.png
+    text: null
+  - when:
+      red: 0
+      green: 1
+      blue: 0
+      black: 0
+    image: tierra2.png
+    text: null
+  - when:
+      red: 1
+      green: 1
+      blue: 0
+      black: 0
+    image: perro-tierra.png
+    text: null
+  - when:
+      red: 0
+      green: 0
+      blue: 1
+      black: 0
+    image: hueso2.png
+    text: null
+  - when:
+      red: 1
+      green: 0
+      blue: 1
+      black: 0
+    image: perro-hueso.png
+    text: null
+  - when:
+      red: 0
+      green: 0
+      blue: 0
+      black: 0
+    image: fondo (1).png
+    text: null

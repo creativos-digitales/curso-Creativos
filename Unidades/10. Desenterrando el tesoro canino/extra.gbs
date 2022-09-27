@@ -1,0 +1,29 @@
+procedure MoverLoloNorte(){
+    Sacar(Rojo)
+    Mover(Norte)
+    Poner(Rojo)
+}
+procedure MoverLoloEste(){
+    Sacar(Rojo)
+    Mover(Este)
+    Poner(Rojo)
+}
+procedure MoverLoloSur(){
+    Sacar(Rojo)
+    Mover(Sur)
+    Poner(Rojo)
+}
+procedure MoverLoloOeste(){
+    Sacar(Rojo)
+    Mover(Oeste)
+    Poner(Rojo)
+}
+procedure LoloIrAlBordeSur(){
+    Sacar(Rojo)
+    IrAlBorde(Sur)
+    Poner(Rojo)
+}
+procedure DesenterrarHueso(){
+    Sacar(Verde)
+    Poner(Azul)
+}
