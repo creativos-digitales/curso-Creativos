@@ -1,17 +1,8 @@
 [
-  { "name": "Proyectos"                     , "repo": "creativos-digitales/curso-Creativos"
+  { "name": "Procedimientos"                     , "repo": "creativos-digitales/curso-Creativos"
   , "exercises": 
-    [ { "id": "1", "name": "Más y más leña" 
-      , "path": "Unidades/1.Más y más leña"
-      },
-      { "id": "2", "name": "Reciclando ando"
-      , "path": "Unidades/2.Reciclando ando"
-      }
-      ,
-      { "id": "3", "name": "Ciudad más limpia"
-      , "path": "Unidades/3.Ciudad más limpia"
-      }
-      ,
+    [ 
+      
       { "id": "4", "name": "El ratón hambriento 1"
       , "path": "Unidades/4. El ratón hambriento"
       }
@@ -28,6 +19,22 @@
       , "path": "Unidades/7. Buscando la salida"
       }
     
+    ]
+  },{ "name": "Condicionales"                     , "repo": "creativos-digitales/curso-Creativos"
+  , "exercises": 
+    [ 
+      { "id": "2", "name": "Reciclando ando"
+      , "path": "Unidades/2.Reciclando ando"
+      }
+      ,
+      { "id": "3", "name": "Ciudad más limpia"
+      , "path": "Unidades/3.Ciudad más limpia"
+      }
+      ,
+      { "id": "1", "name": "Más y más leña" 
+      , "path": "Unidades/1.Más y más leña"
+      }
+      
     ]
   }
 
