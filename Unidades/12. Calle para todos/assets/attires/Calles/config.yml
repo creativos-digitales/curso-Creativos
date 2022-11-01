@@ -1,0 +1,37 @@
+name: Calles
+rules:
+  - when:
+      red: 0
+      green: 0
+      blue: 0
+      black: 1
+    image: calle.png
+    text: null
+  - when:
+      red: 0
+      green: 0
+      blue: 0
+      black: 2
+    image: calle vertical.png
+    text: null
+  - when:
+      red: 0
+      green: 0
+      blue: 0
+      black: 3
+    image: calle-esquina.png
+    text: null
+  - when:
+      red: 1
+      green: 0
+      blue: 0
+      black: 0
+    image: casa (1).png
+    text: null
+  - when:
+      red: '*'
+      green: '*'
+      blue: '*'
+      black: '*'
+    image: fondo (1).png
+    text: null

@@ -38,6 +38,15 @@
       { "id": "4", "name": "Sapo caza moscas" 
       , "path": "Unidades/8. Sapo caza moscas"
       }
+      ,
+      { "id": "5", "name": "La abeja del mes" 
+      , "path": "Unidades/11. La abeja del mes"
+      }
+      ,
+      { "id": "6", "name": "Calle para todos" 
+      , "path": "Unidades/12. Calle para todos"
+      }
+      
       
     ]
   }

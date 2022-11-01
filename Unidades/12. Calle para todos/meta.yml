@@ -1,0 +1,41 @@
+library:
+  visible: false
+source:
+  visible: true
+  percentage: 0.55
+board:
+  visible_edition: true
+  collapse_toolbox: false
+  user_permissions:
+    can_change_initial_board: false
+    can_change_initial_board_source: false
+    can_edit_board: false
+    can_view_size_section: false
+    can_view_attire_section: true
+  active: 3
+  initial_board_source: selected
+execution_speed:
+  user_permissions:
+    can_change_speed: true
+  active: instantaneous
+attire:
+  user_permissions:
+    can_toggle_visibility: true
+  visible: false
+  active: Calles
+initialDescription: true
+link: ''
+blocks:
+  visible:
+    - ComandosPrimitivos
+    - ProcedimientosPrimitivos
+    - MisProcedimientos
+    - RepeticionSimple
+    - Numero
+    - Color
+    - Direccion
+    - ExpresionesPrimitivas
+  disabled: []
+activity:
+  creation_mode: advanced
+name: Calles para todos
