@@ -2,7 +2,7 @@ library:
   visible: false
 source:
   visible: true
-  percentage: 0.55
+  percentage: 0.440625
 board:
   visible_edition: true
   collapse_toolbox: false
@@ -39,7 +39,10 @@ blocks:
     - FuncionesPrimitivas
     - MisFunciones
     - Operadores
+    - DefinicionDeProcedimientoSimple
   disabled: []
 activity:
   creation_mode: advanced
+  construction_mode: blocks
+  execution_type: sequential
 name: La abeja del mes

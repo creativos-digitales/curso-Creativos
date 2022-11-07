@@ -12,7 +12,7 @@ board:
     can_edit_board: false
     can_view_size_section: false
     can_view_attire_section: true
-  active: 3
+  active: 1
   initial_board_source: selected
 execution_speed:
   user_permissions:
@@ -30,12 +30,16 @@ blocks:
     - ComandosPrimitivos
     - ProcedimientosPrimitivos
     - MisProcedimientos
+    - Alternativas
     - RepeticionSimple
     - Numero
     - Color
     - Direccion
     - ExpresionesPrimitivas
+    - DefinicionDeProcedimientoSimple
   disabled: []
 activity:
   creation_mode: advanced
+  construction_mode: blocks
+  execution_type: sequential
 name: Calles para todos
