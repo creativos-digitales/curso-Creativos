@@ -17,7 +17,7 @@ board:
 execution_speed:
   user_permissions:
     can_change_speed: true
-  active: instantaneous
+  active: high
 attire:
   user_permissions:
     can_toggle_visibility: true
@@ -31,18 +31,17 @@ blocks:
     - ProcedimientosPrimitivos
     - MisProcedimientos
     - Alternativas
-    - RepeticionSimple
-    - Numero
-    - Color
-    - Direccion
+    - Repeticiones
+    - CategoriaAsignacion
+    - Literales
     - ExpresionesPrimitivas
     - FuncionesPrimitivas
     - MisFunciones
     - Operadores
-    - DefinicionDeProcedimientoSimple
+    - Definiciones
   disabled: []
 activity:
   creation_mode: advanced
   construction_mode: blocks
   execution_type: sequential
-name: La abeja del mes
+name: 'La abeja del mes '
