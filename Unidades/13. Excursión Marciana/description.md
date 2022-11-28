@@ -1,0 +1,2 @@
+# Excursión Marciana 👽🌌
+Estos marcianitos están en una misión espacial MUY importante, en su planeta no cuidaron como debían el agua y ahora se encuentran en búsqueda de planetas con agua 💧 , ya que es muy preciada e indispensable para la vida. Pero para calificar a dichos planetas, ellos tienen una escala del 1 al 10, menos de 7 no es suficiente para sobrevivir, de 7 en adelante es necesario para que ellos puedan habitar. Nuestra misión será ayudarlos con condicionales para que habiten aquellos planetas con suficiente agua.

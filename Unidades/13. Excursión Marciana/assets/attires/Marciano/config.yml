@@ -1,0 +1,86 @@
+name: Marciano
+rules:
+  - when:
+      red: 0
+      green: 2
+      blue: 0
+      black: 0
+    image: nave y marciano (1) (1).png
+    text: null
+  - when:
+      red: 0
+      green: 0
+      blue: 1
+      black: 0
+    image: planeta-sin-agua (1).png
+    text: null
+  - when:
+      red: 0
+      green: 0
+      blue: 3
+      black: 0
+    image: planeta-sin-agua (1).png
+    text: null
+  - when:
+      red: 0
+      green: 0
+      blue: 7
+      black: 0
+    image: planeta-con-agua (1).png
+    text: null
+  - when:
+      red: 0
+      green: 0
+      blue: 10
+      black: 0
+    image: planeta-con-agua (1).png
+    text: null
+  - when:
+      red: 0
+      green: 2
+      blue: 1
+      black: 0
+    image: planeta-sin-agua-nave (1).png
+    text: null
+  - when:
+      red: 0
+      green: 2
+      blue: 3
+      black: 0
+    image: planeta-sin-agua-nave (1).png
+    text: null
+  - when:
+      red: 0
+      green: 2
+      blue: 7
+      black: 0
+    image: planeta-con-agua-nave (1).png
+    text: null
+  - when:
+      red: 0
+      green: 2
+      blue: 10
+      black: 0
+    image: planeta-con-agua-nave (1).png
+    text: null
+  - when:
+      red: 0
+      green: 1
+      blue: 7
+      black: 0
+    image: planeta-con-agua-marciano (1).png
+    text: null
+  - when:
+      red: 0
+      green: 1
+      blue: 10
+      black: 0
+    image: planeta-con-agua-marciano (1).png
+    text: null
+  - when:
+      red: '*'
+      green: '*'
+      blue: '*'
+      black: '*'
+    image: fondo (2).png
+    text: null

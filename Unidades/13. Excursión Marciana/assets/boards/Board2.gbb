@@ -1,0 +1,10 @@
+GBB/1.0
+size 5 3
+cell 0 0 Azul 10
+cell 1 0 Azul 3
+cell 4 0 Verde 2
+cell 1 1 Azul 3
+cell 3 1 Azul 1
+cell 0 2 Azul 1
+cell 4 2 Azul 7
+head 4 0

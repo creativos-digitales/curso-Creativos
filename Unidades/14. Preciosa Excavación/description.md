@@ -1,0 +1,2 @@
+# Preciosa Excavación
+Arlnold es un minero experimentado👷, y está en busqueda de minerales preciosos como la esmeralda y el oro. En esta mina hay muchos minerales por minar, pero dependiendo cual sea utilizará su pico o su otra herramienta. Si encuentra oro, al ser más duro utilizará la excabadora, pero si encuentra esmeralda utilizara su clásico pico⛏️.

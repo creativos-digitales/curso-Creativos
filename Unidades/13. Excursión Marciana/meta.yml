@@ -1,0 +1,40 @@
+library:
+  visible: false
+source:
+  visible: true
+  percentage: 0.6208333333333333
+board:
+  visible_edition: true
+  collapse_toolbox: false
+  user_permissions:
+    can_change_initial_board: false
+    can_change_initial_board_source: false
+    can_edit_board: false
+    can_view_size_section: false
+    can_view_attire_section: true
+  active: 1
+  initial_board_source: selected
+execution_speed:
+  user_permissions:
+    can_change_speed: true
+  active: instantaneous
+attire:
+  user_permissions:
+    can_toggle_visibility: true
+  visible: true
+  active: Marciano
+initialDescription: true
+link: ''
+blocks:
+  visible:
+    - Comandos
+    - Numero
+    - Color
+    - Direccion
+    - Booleano
+    - ExpresionesPrimitivas
+    - Operadores
+  disabled: []
+activity:
+  creation_mode: advanced
+name: Excursión Marciana
