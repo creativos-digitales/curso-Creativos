@@ -18,6 +18,10 @@
       { "id": "7", "name": "Buscando la salida"
       , "path": "Unidades/7. Buscando la salida"
       }
+      ,
+      { "id": "8", "name": "Buggi el Erizo"
+      , "path": "Unidades/16. Buggi el Erizo"
+      }
     
     ]
   },{ "name": "Condicionales"                     , "repo": "creativos-digitales/curso-Creativos"
