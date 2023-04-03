@@ -1,0 +1,2 @@
+# Buggi el Erizo
+Buggi es un erizo muy travieso 🦔, y tiene una fascinación, explotar globos 🎈. Ayer hubo un cumpleaños y quedaron muchos globos, perfecto para que Buggi pueda jugar. Nuestra tarea será terminar los procedimientos y crear el programa para que explote todos los globos del tablero. A explotar esos globos 🎈💥.
