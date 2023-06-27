@@ -1,0 +1,62 @@
+name: Repartiendo caramelos
+rules:
+  - image: EstudianteAntes-conDocente.png
+    when:
+      black: 2
+      blue: 0
+      green: 0
+      red: 0
+  - image: EstudianteAntes.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 0
+  - image: EstudianteYCaramelo-conDocente.png
+    when:
+      black: 2
+      blue: 0
+      green: 1
+      red: 0
+  - image: EstudianteYCaramelo.png
+    when:
+      black: 0
+      blue: 0
+      green: 1
+      red: 0
+  - image: EstudianteYPapel-conDocente.png
+    when:
+      black: 2
+      blue: 1
+      green: 0
+      red: 1
+  - image: EstudianteYPapel.png
+    when:
+      black: 0
+      blue: 1
+      green: 0
+      red: 1
+  - image: EstudianteFeliz-conDocente.png
+    when:
+      black: 2
+      blue: 1
+      green: 0
+      red: 0
+  - image: EstudianteFeliz.png
+    when:
+      black: 0
+      blue: 1
+      green: 0
+      red: 0
+  - image: Escritorio-conDocente.png
+    when:
+      black: 3
+      blue: 0
+      green: 0
+      red: 0
+  - image: Escritorio.png
+    when:
+      black: 1
+      blue: 0
+      green: 0
+      red: 0
